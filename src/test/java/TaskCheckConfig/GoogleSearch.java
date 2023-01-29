@@ -11,7 +11,7 @@ public class GoogleSearch {
     public static void main(String[] args) {
 
         System.setProperty("webdriver.chrome.driver",
-                "src/main/resources/chromedrivers/chromedriver"); // Chrome - ustawienie property systemowego
+                "src/main/resources/chromedrivers/chromedriver.exe"); // Chrome - ustawienie property systemowego
 
         WebDriver driver = new ChromeDriver(); // Chrome - wybranie drivera
 
